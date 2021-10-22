@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+:root {
+    --primario: #9c2780;
+    --primarioOscuro: #891190;
+    --secundario: #ffce00;
+    --secundarioOscuro: rgb(233, 287, 2);
+    --blanco: #fff;
+    --negro: #000;
+    --fuente-principal: "Staatliches", cursive;
+  }
+.titulo{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+body{
+    background-color: #9c2780;
+}
+p{
+    justify-content: center;
+    margin: 30px;
+    width: 300px;
+    height: 120px;
+    
+    border-radius: 1%;
+    border: 2px;
+}
+p:hover{
+    height: 150px;
+    transform: rotate(12deg);
+    transition: 2s;
+}
