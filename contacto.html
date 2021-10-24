@@ -1,12 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <header class="header">
+        <a href="/index.html">
+          <img class="header__logo" src="/img/logo.png" alt="Logotipo" />
+        </a>
+      </header>
+      <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--activo"href="/index.html">Tienda</a>
+        <a class="navegacion__enlace" href="/nosotros.html">Nosotros</a>
+        <a class="navegacion__enlace" href="/contacto.html">Contacto</a>
+        <a class="navegacion__enlace" href="/redes.html">Redes Sociales</a>
+      </nav>
+    <h1>
+        Formulario
+    </h1>
+    <br>
+    <hr>
+    <br>
+    <fieldset>
+        <legend>Informacion del Usuario</legend>
+        <p>
+            <label for="nombre" id="nombre" name="nombre">Nombre : </label>
+            <input type="text" id="nombre" name="nombre" placeholder="nombre" required>
+        </p>
+        <p>
+            <label for="apellido" id="apellido" name="apellido">Apellido : </label>
+            <input type="text" id="apellido" name="apellido" placeholder="Apellido" required>
+        </p>
+        <p>
+            <label for="email" id="email" name="email">Email : </label>
+            <input type="email" name="email" id="email" placeholder="Email" required>
+        </p>
+        <p>
+            <label for="telefono" id="telefono" name="telefono">Telefono : </label>
+            <input type="number" name="telefono" id="telefono" placeholder="Telefono" required>
+        </p>
+        <p>
+            Genero
+        <p>
+            <input type="checkbox" name="masculino" id="masculino">
+            <label for="masculino" id="masculino" name="masculino">Masculino</label>
+        </p>
+        <p>
+            <input type="checkbox" name="femenino" id="femenino">
+            <label for="femenino" id="femenino" name="femenino">Femenino</label>
+        </p>
+        <p>
+            <input type="checkbox" name="noBinario" id="noBinario">
+            <label for="noBinario" id="noBinario" name="noBinario">No Binario</label>
+        </p>
+        </p>
+        <p>
+            Nacionalidad
+        </p>
+        <p>
+            <input type="radio" name="argentina" id="argentina">
+            <label for="argentina" id="argentina" name="argentina">Argentina</label>
+        </p>
+        <p>
+            <input type="radio" name="chile" id="chile">
+            <label for="chile" id="chile" name="chile">Chile</label>
+        </p>
+        <p>
+            <input type="radio" name="colombia" id="colombia">
+            <label for="colombia" id="colombia" name="colombia">Colombia</label>
+        </p>
+
+
+        <p>
+            <textarea name="comentarios" id="comentarios" cols="30" rows="10"
+                placeholder="Nos ayudarias a mejorar mucho con tu comentario"></textarea>
+        </p>
+
+        <p>
+            <label for="tarjeta" id="tarjeta" name="tarjeta">
+                <samp>Tarjeta</samp>
+            </label>
+            <select name="card" id="card">
+                <option value="visa">Visa</option>
+                <option value="Mastercard">Mastercard</option>
+                <option value="American">American</option>
+            </select>
+        </p>
+        <p>
+            <input type="submit" value="Enviar Datos">
+        </p>
+        <p>
+            <input type="reset" value="Eliminar datos">
+        </p>
+        <p>
+
+        </p>
+
+        <p>
+            <a href="https://www.youtube.com" target="_blank"><img src="../images/20210802_203632_70.jpg">se rompio la
+                imagen</a>
+        </p>
+    </fieldset>
 </body>
+
 </html>

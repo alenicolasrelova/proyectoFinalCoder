@@ -247,3 +247,8 @@ h3 {
 .formulario__option {
   color: var(--negro);
 }
+.producto__imagen:hover{
+  width: 380px;
+  background-image: linear-gradient(beige,bisque);
+  transition: 1s;
+}
